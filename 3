@@ -1,0 +1,22 @@
+def input_grades():
+    # Вводим количество оценок
+    num_grades = int(input("Введите количество оценок: "))
+    grades = []
+
+    # Вводим сами оценки
+    for i in range(num_grades):
+        grade = float(input(f"Введите оценку {i + 1}: "))
+        grades.append(grade)
+    
+    return grades
+
+def calculate_average(grades):
+    return sum(grades) / len(grades)
+
+def find_max_min(grades):
+    max_grade = max(grades)
+    min_grade = min(grades)
+    return max_grade, min_grade
+
+def count_above_threshold(grades, threshold):
+    return len([grade for grade in grades if grade > threshold])
