@@ -1,0 +1,2 @@
+# ezurnalas
+Pažymio skaičiavimo sistema
