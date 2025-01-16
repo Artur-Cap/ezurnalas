@@ -7,7 +7,7 @@ average_grade = sum(grades) / len(grades)
 # Классификация
 if average_grade >= 4.5:
     classification = "Отличник"
-elif average_grade >= 3.5:
+elif average_grade >= 3.0:
     classification = "Хорошист"
 else:
     classification = "Учащийся"
